@@ -39,7 +39,7 @@ def update_airbus_model(model):
     else:
         return model
 
-def update_embraer_commercial_model(model):
+def update_embraer_model(model):
     if '170' in model:
         return 'ERJ-170'
     elif '175' in model:
@@ -48,6 +48,14 @@ def update_embraer_commercial_model(model):
         return 'ERJ-190'
     elif '195' in model:
         return 'ERJ-195'
+    elif '110' in model or '11O' in model:
+        return 'EMB-110'
+    elif '120' in model:
+        return 'EMB-120'
+    elif '135' in model:
+        return 'EMB-135'
+    elif '145' in model:
+        return 'EMB-145'
     else:
         return model
 
@@ -109,100 +117,6 @@ def update_beechcraft_model(model):
         return 'Super King Air'
     else:
         return model
-
-# def update_cessna_model(model):
-#     if '152' in model:
-#         return 'C-152'
-#     elif '172' in model:
-#         return 'Skyhawk'
-#     elif '150' in model:
-#         return 'C-150'
-#     elif '180' in model or '185' in model or '183' in model:
-#         return 'Skywagon'
-#     elif '182' in model:
-#         return 'Skylane'
-#     elif '140' in model:
-#         return 'C-140'
-#     elif '170' in model:
-#         return 'C-140'
-#     elif '177' in model:
-#         return 'Cardinal'
-#     elif '188' in model:
-#         return 'C-188'
-#     elif '210' in model or '201' in model or '21O' in model:
-#         return 'Centurion'
-#     elif '206' in model:
-#         return 'C-206'
-#     elif '401' in model:
-#         return 'C-401'
-#     elif '337' in model or '336' in model:
-#         return 'Skymaster'
-#     elif '120' in model:
-#         return 'C-120'
-#     elif '145' in model:
-#         return 'C-145'
-#     elif '162' in model:
-#         return 'Skycatcher'
-#     elif '175' in model:
-#         return 'Skylark'
-#     elif '190' in model:
-#         return 'C-190'
-#     elif '195' in model:
-#         return 'C-195'
-#     elif '205' in model:
-#         return 'C-205'
-#     elif '207' in model:
-#         return 'C-207'
-#     elif '208' in model:
-#         return 'Caravan'
-#     elif '305' in model:
-#         return 'C-305'
-#     elif '31' in model or '310' in model:
-#         return 'C-310'
-#     elif '320' in model:
-#         return 'Skyknight'
-#     elif '335' in model:
-#         return 'C-335'
-#     elif '340' in model:
-#         return 'C-340'
-#     elif '402' in model:
-#         return 'C-402'
-#     elif '404' in model:
-#         return 'Titan'
-#     elif '411' in model:
-#         return 'C-411'
-#     elif '414' in model:
-#         return 'C-414'
-#     elif '421' in model:
-#         return 'Golden Eagle'
-#     elif '425' in model:
-#         return 'C-425'
-#     elif '441' in model:
-#         return 'Conquest II'
-#     elif '500' in model or '501' in model:
-#         return 'Citation I'
-#     elif '510' in model:
-#         return 'Citation Mustang'
-#     elif '525' in model:
-#         return 'CitationJet'
-#     elif '550' in model or '551' in model:
-#         return 'Citation II'
-#     elif '560' in model:
-#         return 'Citation V'
-#     elif '650' in model:
-#         return 'Citation III'
-#     elif '680' in model:
-#         return 'Citation Sovereign'
-#     elif '750' in model:
-#         return 'Citation X'
-#     elif '0-1A' in model or 'L-19' in model or 'L19' in model:
-#         return 'Bird Dog'
-#     elif 'T-50' in model:
-#         return 'Bobcat'
-#     elif 'T303' in model:
-#         return 'Crusader'
-#     else:
-#         return model
 
 def update_cessna_model(model):
     model_mappings = {
@@ -268,9 +182,6 @@ def update_dassault_model(model):
     else:
         return model
 
-def update_embraer_private_model(model):
-    return
-
 def update_gulfstream_model(model):
     if '112' in model:
         return 'Rockwell Commander 112'
@@ -284,14 +195,64 @@ def update_gulfstream_model(model):
         return 'Twin Commander'
     elif 'AA-5' in model or 'AA5' in model:
         return 'Grumman American AA-5'
+    elif 'IV' in model:
+        return 'G-IV'
+    elif 'V' in model:
+        return 'G-V'
+    elif '1159' in model:
+        return 'Grumman Gulfstream II'
+    elif '159' in model:
+        return 'Grumman Gulfstream I'
+    elif '164' in model:
+        return 'Grumman Ag-Cat'
     else:
         return model
 
 def update_pilatus_model(model):
-    return
+    if '12' in model:
+        return 'PC-12'
+    elif '05' in model:
+        return 'P3'
+    else:
+        return model
 
 def update_hawker_model(model):
-    return
+    if '58' in model:
+        return 'Hunter 58'
+    else:
+        return model
+
+def update_bell_model(model):
+    if '206' in model:
+        return '206'
+    elif '47-B' in model:
+        return '47B'
+    elif '47G' in model or '47-G' in model:
+        return '47G'
+    elif '47D' in model:
+        return '47D'
+    elif '47J' in model:
+        return '47J'
+    elif 'UH-1' in model:
+        return 'UH-1'
+    elif '407' in model:
+        return '407'
+    elif '222' in model:
+        return '222'
+    elif '212' in model:
+        return '212'
+    elif '412' in model:
+        return '412'
+    elif '205' in model:
+        return '205'
+    elif 'OH-58' in model or 'OH 58' in model:
+        return 'OH-58'
+    elif '204' in model:
+        return '204'
+    elif '214' in model:
+        return '214'
+    else:
+        return model
 
 def update_model(row):
     if row['Make'] == 'Mitsubishi':
@@ -301,7 +262,7 @@ def update_model(row):
     elif row['Make'] == 'Airbus':
         return update_airbus_model(row['Model'])
     elif row['Make'] == 'Embraer':
-        return update_embraer_commercial_model(row['Model'])
+        return update_embraer_model(row['Model'])
     elif row['Make'] == 'Bombardier':
         return update_bombardier_model(row['Model'])
     elif row['Make'] == 'Beechcraft':
@@ -312,11 +273,11 @@ def update_model(row):
         return update_dassault_model(row['Model'])
     elif row['Make'] == 'Gulfstream':
         return update_gulfstream_model(row['Model'])
+    elif row['Make'] == 'Pilatus':
+        return update_pilatus_model(row['Model'])
+    elif row['Make'] == 'Hawker':
+        return update_hawker_model(row['Model'])
+    elif row['Make'] == 'Bell':
+        return update_bell_model(row['Model'])
     else:
         return row['Model']  # Handle the 'Other' or default case
-
-
-
-
-
-#%%
