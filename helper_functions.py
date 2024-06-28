@@ -74,4 +74,4 @@ def update_model(row):
         for key, value in MODEL_MAPPINGS[make].items():
             if key in model:
                 return value
-    return model  # Handle the other manufacturers
+    return 'N/A'  # Handle the other manufacturers
