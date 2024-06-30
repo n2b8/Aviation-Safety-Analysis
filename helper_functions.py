@@ -2,8 +2,8 @@
 MODEL_MAPPINGS = {
     'Boeing': {
         '737': '737', '747': '747', '757': '757', '767': '767',
-        '777': '777', '787': '787', '727': '727', 'A75': 'A75',
-        '717': '717', 'B75': 'B75', '707': '707'
+        '777': '777', '787': '787', '727': '727', '717': '717',
+        '707': '707'
     },
     'Airbus': {
         '319': 'A319', '320': 'A320', '321': 'A321', '330': 'A330'
@@ -74,4 +74,4 @@ def update_model(row):
         for key, value in MODEL_MAPPINGS[make].items():
             if key in model:
                 return value
-    return 'N/A'  # Handle the other manufacturers
+    return 'N/A'  # Handle the other models
