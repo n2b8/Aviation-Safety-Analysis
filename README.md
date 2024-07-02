@@ -65,7 +65,7 @@ The data preparation steps include:
 - **Non-Cessna Private Craft**:
     - Bombardier Challenger 600 and Embraer EMB-145 show promising safety records with a 0% mean fatality rate.
 - **Commercial Aircraft**:
-    - All Airbus, Boeing, and Embraer models generally have a strong safety record, except Boeing 737 and 767.
+    - All Airbus, Boeing, and Embraer models generally have a strong safety record, except Boeing 707 and 767.
     - Mitsubishi models, particularly the MU-2 series, show high fatality rates.
 - **Helicopters**:
     - The Bell 206, Robinson R-22, and Robinson R-44 have < 20% mean fatality rate.
