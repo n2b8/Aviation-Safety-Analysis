@@ -61,7 +61,7 @@ The data preparation steps include:
 ### Manufacturer Insights
 - **Cessna**:
     - Cessna has one of the lower fatality rates for private aircraft but the highest incident rate.
-    - Models like C-150, Centurion, Skyhawk, Skylane, and Skywagon all have over 200 records and < 20% fatality rate.
+    - Models like C-150, Centurion, Skyhawk, Skylane, and Skywagon all have over 200 records and < 20% fatality rate (except for the Centurion model with a 21% fatality rate).
 - **Non-Cessna Private Craft**:
     - Bombardier Challenger 600 and Embraer EMB-145 show promising safety records with a 0% mean fatality rate.
 - **Commercial Aircraft**:
