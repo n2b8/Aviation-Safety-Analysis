@@ -1,5 +1,9 @@
 # Aircraft Safety Analysis for Business Expansion
 
+<img src="images/Flight-Safety-Instructions.jpg">
+
+[Credit: Paxes.com](https://www.paxes.com/blog/flight-safety-instructions/)
+
 ## Introduction
 
 This notebook contains an analysis aimed at identifying the safest aircraft models for a company expanding into operating airplanes for commercial and private use. The analysis is based on aircraft incident data from the NTSB up to 2023.
@@ -22,6 +26,10 @@ The dataset contains 90,348 entries and 31 columns, including:
 - `Make` and `Model`: Manufacturer and model of the aircraft.
 - `Number.of.Engines`: Number of engines on the aircraft.
 - `Purpose.of.flight`: The purpose of the flight during the event.
+
+## Limitations
+
+- The dataset only contains information about flights that have gone wrong and does not include information about general safety, flight hours, maintenance, and successful flights. This presents an incomplete picture when attempting to determine overall aircraft safety.
 
 ## Data Preparation
 
@@ -64,18 +72,33 @@ The data preparation steps include:
 
 ## Recommendations
 
-Based on the analysis, the following recommendations are made for safer aircraft choices:
+Based on the analysis, here are some recommendations for safer aircraft choices:
 
 ### Private Aircraft
-- Consider Cessna models like C-150, Centurion, Skyhawk, Skylane, and Skywagon for their lower fatality rates.
-- Bombardier Challenger 600 and Embraer EMB-145 show promising safety records with a 0% mean fatality rate.
+
+- Consider Cessna models like the Skyhawk, C-150, Skylane, Skywagon, and Centurion for their lower fatality rates and extensive incident records.
+- The Bombardier Challenger 600 (CL-600) and Embraer EMB-145 also show promising safety records with a 0% mean fatality rate.
+- Exercise caution with the Pilatus PC-12, which has a mean fatality rate of 32.29%.
 
 ### Commercial Aircraft
-- Airbus, Boeing, and Embraer models generally have a strong safety record. However, caution should be exercised with the Boeing 767 due to its higher mean fatality rate.
-- Mitsubishi models, particularly the MU-2 series, show high fatality rates and should be approached with caution.
+
+- The Boeing 737 is recommended due to its large dataset and low mean fatality rate of 0.71%.
+- Most other Boeing models have a strong safety record, but caution should be exercised with the Boeing 707 and 767 due to their higher mean fatality rates of 11.40% and 5.00%, respectively.
+- Airbus and Embraer models generally have a strong safety record with a 0% mean fatality rate.
+- Mitsubishi models, particularly the MU-2 series, show high fatality rates and should be approached with caution, except for models like MU-2F and Solitaire which have lower fatality rates.
 
 ### Helicopters
+
 - The Bell 206, Robinson R-22, and Robinson R-44 are recommended for their lower fatality rates and higher number of incidents, indicating a robust dataset.
+
+## Additional Considerations
+
+- The recommendations can become more accurate and helpful upon further review from the relevant stakeholders within the business. Important factors to consider include:
+  - Are we focusing on passenger aircraft, cargo aircraft, or both?
+  - Are we interested in larger long-haul flights or shorter hops?
+  - Are helicopters of interest?
+  - Are we looking for business jets to carry C-suite executives to meetings?
+  - Do we need smaller short-runway capable aircraft to carry medications or other supplies to remote locations?
 
 ## Conclusion
 
@@ -83,7 +106,8 @@ This analysis provides insights into the safety of different aircraft models and
 
 ## Acknowledgments
 
-Data sourced from the National Transportation Safety Board (NTSB).
+- Data sourced from the National Transportation Safety Board (NTSB).
+- Aircraft sales information sourced from Assets America and General Aviation News.
 
 ---
 
