@@ -76,21 +76,20 @@ Based on the analysis, here are some recommendations for safer aircraft choices:
 
 ### Private Aircraft
 
-- Consider Cessna models like the Skyhawk, C-150, Skylane, Skywagon, and Centurion for their lower fatality rates and extensive incident records.
-- The Bombardier Challenger 600 (CL-600) and Embraer EMB-145 also show promising safety records with a 0% mean fatality rate.
-- Exercise caution with the Pilatus PC-12, which has a mean fatality rate of 32.29%.
+- Single-engine aircraft tend to have the lowest average fatality rates.
+- Exercise caution with turboprop engines, which have the highest fatality rates. Turbofan and reciprocating engines have nearly tied for the lowest fatality rates.
+- Generally, more passengers equate to lower fatality rates.
 
 ### Commercial Aircraft
 
-- The Boeing 737 is recommended due to its large dataset and low mean fatality rate of 0.71%.
-- Most other Boeing models have a strong safety record, but caution should be exercised with the Boeing 707 and 767 due to their higher mean fatality rates of 11.40% and 5.00%, respectively.
-- Airbus and Embraer models generally have a strong safety record with a 0% mean fatality rate.
-- Mitsubishi models, particularly the MU-2 series, show high fatality rates and should be approached with caution, except for models like MU-2F and Solitaire which have lower fatality rates.
+- Dual-engine aircraft have the highest fatality rates but still lower than all private aircraft engine counts.
+- Turboprop engines have the highest fatality rates by a significant margin, while turbofan and turbojet engines have the lowest fatality rates.
+- Higher passenger counts generally correlate with lower fatality rates.
 
 ### Helicopters
 
-- The Bell 206, Robinson R-22, and Robinson R-44 are recommended for their lower fatality rates and higher number of incidents, indicating a robust dataset.
-
+- Turboshaft engine types have the highest fatality rates, and reciprocating engines have the lowest, though both have relatively low rates.
+- There is no apparent correlation between passenger count and fatality rate, which makes sense since helicopters aren't typically capable of carrying large numbers of people.
 ## Additional Considerations
 
 - The recommendations can become more accurate and helpful upon further review from the relevant stakeholders within the business. Important factors to consider include:

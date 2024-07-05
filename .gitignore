@@ -1,3 +1,10 @@
+# Ignore specific data files
+data/airplane_scatter.csv
+data/helicopter_scatter.csv
+
+# Ignore the Presentation.key file in the base directory
+Presentation.key
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
