@@ -44,11 +44,11 @@ The data preparation steps include:
 
 ### Correlation Insights
 - **Fatalities**:
-    - The number of fatalities ranges from 0 to 228 with an average of 0.33 fatalities per incident.
-    - The percentage of fatalities amongst total passengers per incident is 13.77% on average.
+  - The number of fatalities ranges from 0 to 228 with an average of 0.33 fatalities per incident.
+  - The percentage of fatalities amongst total passengers per incident is 13.77% on average.
 - **Correlation**:
-    - Moderately positive correlation between both `Total.Uninjured` and `Total.Pax` with `Number.of.Engines`.
-    - Weakly negative correlation between `Damage.Encoded` and `Total.Uninjured`.
+  - Moderately positive correlation between both `Total.Uninjured` and `Total.Pax` with `Number.of.Engines`.
+  - Weakly negative correlation between `Damage.Encoded` and `Total.Uninjured`.
 
 ### Damage Severity
 - Private aircraft and helicopters have a more frequent instance of 'substantial' damage.
@@ -60,15 +60,15 @@ The data preparation steps include:
 
 ### Manufacturer Insights
 - **Cessna**:
-    - Cessna has one of the lower fatality rates for private aircraft but the highest incident rate.
-    - Models like C-150, Centurion, Skyhawk, Skylane, and Skywagon all have over 200 records and < 20% fatality rate (except for the Centurion model with a 21% fatality rate).
+  - Cessna has one of the lower fatality rates for private aircraft but the highest incident rate.
+  - Models like C-150, Centurion, Skyhawk, Skylane, and Skywagon all have over 200 records and < 20% fatality rate (except for the Centurion model with a 21% fatality rate).
 - **Non-Cessna Private Craft**:
-    - Bombardier Challenger 600 and Embraer EMB-145 show promising safety records with a 0% mean fatality rate.
+  - Bombardier Challenger 600 and Embraer EMB-145 show promising safety records with a 0% mean fatality rate.
 - **Commercial Aircraft**:
-    - All Airbus, Boeing, and Embraer models generally have a strong safety record, except Boeing 707 and 767.
-    - Mitsubishi models, particularly the MU-2 series, show high fatality rates.
+  - All Airbus, Boeing, and Embraer models generally have a strong safety record, except Boeing 707 and 767.
+  - Mitsubishi models, particularly the MU-2 series, show high fatality rates.
 - **Helicopters**:
-    - The Bell 206, Robinson R-22, and Robinson R-44 have < 20% mean fatality rate.
+  - The Bell 206, Robinson R-22, and Robinson R-44 have < 20% mean fatality rate.
 
 ## Recommendations
 
@@ -90,6 +90,7 @@ Based on the analysis, here are some recommendations for safer aircraft choices:
 
 - Turboshaft engine types have the highest fatality rates, and reciprocating engines have the lowest, though both have relatively low rates.
 - There is no apparent correlation between passenger count and fatality rate, which makes sense since helicopters aren't typically capable of carrying large numbers of people.
+
 ## Additional Considerations
 
 - The recommendations can become more accurate and helpful upon further review from the relevant stakeholders within the business. Important factors to consider include:
@@ -102,6 +103,10 @@ Based on the analysis, here are some recommendations for safer aircraft choices:
 ## Conclusion
 
 This analysis provides insights into the safety of different aircraft models and makes actionable recommendations to support the company's expansion into aircraft operations. The findings are based on detailed analysis and are aimed at minimizing risks associated with aircraft selection.
+
+Additionally, a comprehensive dashboard has been created to visualize the various aircraft makes and models as well as market types for their safety. This dashboard provides an interactive way to explore the data and understand the safety profiles of different aircraft. You can access the dashboard using the link below:
+
+[Aircraft Safety Dashboard](https://public.tableau.com/views/JDM-Aircraft-Safety/AircraftSafetyDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Acknowledgments
 
