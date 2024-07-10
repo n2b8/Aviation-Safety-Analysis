@@ -1,12 +1,30 @@
 # Aircraft Safety Analysis for Business Expansion
 
-<img src="images/Flight-Safety-Instructions.jpg">
-
+![Flight Safety Instructions](images/Flight-Safety-Instructions.jpg)  
 [Credit: Paxes.com](https://www.paxes.com/blog/flight-safety-instructions/)
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Business Understanding](#business-understanding)
+3. [Data Understanding](#data-understanding)
+4. [Limitations](#limitations)
+5. [Data Preparation](#data-preparation)
+6. [Analysis and Findings](#analysis-and-findings)
+  - [Correlation Insights](#correlation-insights)
+  - [Damage Severity](#damage-severity)
+  - [Engine Types and Fatality Rates](#engine-types-and-fatality-rates)
+  - [Manufacturer Insights](#manufacturer-insights)
+7. [Recommendations](#recommendations)
+  - [Private Aircraft](#private-aircraft)
+  - [Commercial Aircraft](#commercial-aircraft)
+  - [Helicopters](#helicopters)
+8. [Additional Considerations](#additional-considerations)
+9. [Conclusion](#conclusion)
+10. [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
-This notebook contains an analysis aimed at identifying the safest aircraft models for a company expanding into operating airplanes for commercial and private use. The analysis is based on aircraft incident data from the NTSB up to 2023.
+This notebook contains an analysis aimed at identifying the safest aircraft models for a company expanding into operating airplanes for commercial and private use. The analysis is based on aircraft incident data from the National Transportation Safety Board (NTSB) up to 2023.
 
 ## Business Understanding
 

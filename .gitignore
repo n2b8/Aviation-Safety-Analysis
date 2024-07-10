@@ -1,6 +1,8 @@
 # Ignore specific data files
 data/airplane_scatter.csv
 data/helicopter_scatter.csv
+index.ipynp.pdf
+README.md.pdf
 
 # Ignore the Presentation.key file in the base directory
 Presentation.key
